@@ -1,0 +1,17 @@
+---- SAU ĐÂY LÀ HƯỚNG DẪN CƠ BẢN VỀ EMBED VIDEO VÀO 3D MODEL ----
+
+- Chúng ta có thêm kiến thức về cách sử dụng GLTF để sử dụng trực tiếp 3D model trên mạng
+- Sử dụng iframe để thực hiện đưa videos vào khung 3D
+- Lưu ý:
+    + Source youtube sẽ không phải đường link url bthg mà nó có dạng:
+        https://www.youtube.com/embed/VIDEO_ID
+    + Chúng ta cần lấy videos ID của youtube và điền vào
+     id lấy như sau 
+     -> Link youtube cơ bản:
+     https://www.youtube.com/watch?v=NOZONW-UK0w&ab_channel=Awonddy
+     
+     -> Video_id =>                  NOZONW-UK0w 
+
+     => ID đứng sau "v=" trong đường link và trước dấu "&"
+
+     - Muốn auto play thì chúng ta cần thêm ?autoplay=1&mute vao`
